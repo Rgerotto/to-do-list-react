@@ -13,7 +13,7 @@ const TodoForm = ({addTodo}) => {
     }
   return (
     <div className='todo-form'>
-        <form onSubmit={handleSubmit}>
+        <form className='form-todoform' onSubmit={handleSubmit}>
             <input type="text" placeholder='digite aqui' value={value} onChange={(event) => setValue(event.target.value)}/>
             <select value={category} onChange={(event) => setCategory(event.target.value)}>
                 <option value="">selecione</option>
@@ -21,7 +21,7 @@ const TodoForm = ({addTodo}) => {
                 <option value="Pessoal">Pessoal</option>
                 <option value="Educao">Educao</option>
             </select>
-            <button>Criar tarefa</button>
+            <button className='btn'>Criar tarefa</button>
         </form>
 
     </div>

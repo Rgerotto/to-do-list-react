@@ -3,18 +3,80 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(192, 192, 254);
 }
+.btn{
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+input{
+  padding: 5px 10px;
+}
+
 .todo-list{
-  background-color: aqua;
+  width: 100%;
 }
 
 .container-search{
-  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
 }
+/*FILTER*/
 .container-filter{
-  background-color: blue;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+.main-container{
+  display: flex;
+  justify-content: space-around;
+}
+.filter-container{
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+select{
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+.order-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*TODO*/
 .todo{
-  background-color: rgb(100, 100, 243);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+  height: 80px;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 15px 10px;
+}
+.content{
+  margin-bottom: 10px;
+
+}
+.btn-complete{
+  margin-right: 20px;
+  background-color: chartreuse;
+  color: rgb(255, 71, 108);
+}
+.btn-delete{
+  background-color: rgb(255, 71, 108);
+  color: chartreuse;
+}
+
+/*TODOFORM*/
+.todo-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

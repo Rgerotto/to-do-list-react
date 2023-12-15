@@ -1,0 +1,20 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(192, 192, 254);
+}
+.todo-list{
+  background-color: aqua;
+}
+
+.container-search{
+  background-color: blueviolet;
+}
+.container-filter{
+  background-color: blue;
+}
+.todo{
+  background-color: rgb(100, 100, 243);
+}
